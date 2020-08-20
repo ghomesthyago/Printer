@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/', (request, response) => {
-  response.send('Hello World')
+  response.send('Hello World!')
 })
 
 app.listen(3330)
